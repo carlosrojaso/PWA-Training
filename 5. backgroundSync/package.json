@@ -1,0 +1,23 @@
+{
+  "name": "PWATraining",
+  "version": "1.0.0",
+  "description": "PWATraining",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1",
+    "start:ssl": "http-server -c-1 -S -C cert.pem -K key.pem",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "url": "git@github.com:carlosrojaso/PWA-Training.git"
+  },
+  "keywords": [
+    "PWA"
+  ],
+  "author": "Majid Hajian",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
